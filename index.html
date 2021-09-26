@@ -32,7 +32,6 @@
     font-weight: 400;
     font-size: 110%;
     vertical-align: baseline;
-    width: 75%;
     }
 
 
@@ -43,7 +42,7 @@
         <image src="./images/FZU.png" style="width: 99px; float: right; position: absolute;  right: 0px; top: -17px;">
         </image>
         <span class=school_class>姓名：</span>
-        <input class="cl_name" id= "student_name" style="padding-bottom: 10px;"    value="SSSS"/>
+        <input class="cl_name" id= "student_name" style="padding-bottom: 10px;"  value="SSSS"/>
         <br>
         <span  class=school_class>部门：</span>
         <input class="cl_name" id= "class_name"  value="福州大学"/>
@@ -105,7 +104,7 @@
 
         <script>
         function input_classes() {
-            var classes = prompt("输入班级");
+            var classes = prompt("输入学院");
             var text = document.getElementById("class_name");
             if(classes != "" && classes != undefined && classes != null) {
                 text.value = classes;
